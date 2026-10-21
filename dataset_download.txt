@@ -1,0 +1,19 @@
+==================================================
+数据集获取说明 (Dataset Download Instructions)
+==================================================
+
+本项目使用的是开源的 Drink_284 饮料目标检测数据集（YOLO 格式）。
+由于图片数据体积较大，不符合 GitHub 的存储规范，因此未直接包含在本仓库中。
+
+【原始数据集下载】
+您可以直接通过以下官方链接下载完整的 YOLO 格式压缩包：
+https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Drink_284_Detection_Dataset/Drink_284_Detection_YOLO.zip
+
+【本项目的精简版数据集】
+本模型仅针对 "可乐(cola)" 和 "雪碧(sprite)" 进行训练。
+下载解压后，请将 images 和 labels 文件夹放置在 dataset/ 目录下。
+然后运行本项目根目录下的 slim_dataset.py 脚本，即可自动提取仅包含可乐和雪碧的黄金数据集。
+
+【模型权重】
+预训练的最优权重已保存在 runs/detect/drink_slim_v1/weights/best.pt，可直接用于推理测试。
+==================================================
