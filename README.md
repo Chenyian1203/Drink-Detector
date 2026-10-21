@@ -29,7 +29,11 @@
 
 ## 🏆 训练成果展示
 * 雪碧 (Sprite) 测试识别置信度: 0.96
+* <img width="883" height="377" alt="image" src="https://github.com/user-attachments/assets/585d1774-d50b-40ce-a29f-ab0cba7b7171" />
+
 * 可乐 (Cola) 测试识别置信度: 0.93
+* <img width="1098" height="553" alt="image" src="https://github.com/user-attachments/assets/0c41502d-c5a7-4f47-8243-c07b3c8632b3" />
+
 
 ## 🧠 踩坑与心得 (具身智能视角)
 1. 数据决定上限：精简后的 158 张图片配合极速训练，即可达到 mAP50 0.98 的极高精度。
